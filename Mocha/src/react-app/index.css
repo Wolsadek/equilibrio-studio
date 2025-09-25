@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --color-sage: #8B9D83;
+  --color-sage-light: #A4B49C;
+  --color-sage-dark: #6B7A64;
+  --color-beige: #F5F1EB;
+  --color-beige-dark: #E8DDD2;
+  --color-off-white: #FEFCFA;
+  --color-gray-dark: #2D3748;
+  --color-gray-medium: #4A5568;
+  --color-gray-light: #A0AEC0;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.text-sage {
+  color: var(--color-sage);
+}
+
+.text-sage-light {
+  color: var(--color-sage-light);
+}
+
+.text-sage-dark {
+  color: var(--color-sage-dark);
+}
+
+.bg-sage {
+  background-color: var(--color-sage);
+}
+
+.bg-sage-light {
+  background-color: var(--color-sage-light);
+}
+
+.bg-beige {
+  background-color: var(--color-beige);
+}
+
+.bg-beige-dark {
+  background-color: var(--color-beige-dark);
+}
+
+.bg-off-white {
+  background-color: var(--color-off-white);
+}
+
+.border-sage {
+  border-color: var(--color-sage);
+}
+
+.hover\\:bg-sage-dark:hover {
+  background-color: var(--color-sage-dark);
+}
+
+.hover\\:border-sage-dark:hover {
+  border-color: var(--color-sage-dark);
+}
