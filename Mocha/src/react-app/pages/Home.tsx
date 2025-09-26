@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { ArrowRight, Heart, Users, Award } from 'lucide-react';
 import Layout from '@/react-app/components/Layout';
 

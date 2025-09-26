@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "@/react-app/pages/Home";
 import AboutPage from "@/react-app/pages/About";
 import ServicesPage from "@/react-app/pages/Services";
@@ -7,7 +7,7 @@ import ContactPage from "@/react-app/pages/Contact";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/equilibrio-studio">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/sobre" element={<AboutPage />} />
